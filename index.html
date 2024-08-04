@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Coefficient Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Binomial Coefficient Simulator</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>Learn and simulate binomial coefficients with our tool.</p>
+        </section>
+        <section>
+            <h2>Simulation Tool (Tree Representation)</h2>
+            <iframe src="https://recursion.vercel.app/" width="100%" height="500px" frameborder="0"></iframe>
+        </section>
+        <section>
+            <h2>2D Array Representation</h2>
+            <form id="tableForm">
+                <label for="n">Enter n:</label>
+                <input type="number" id="n" name="n" required>
+                <label for="k">Enter k:</label>
+                <input type="number" id="k" name="k" required>
+                <button type="submit">Generate Table</button>
+            </form>
+            <div id="tableContainer"></div>
+            <button id="speedDown">Slower</button>
+            <button id="speedUp">Faster</button>
+        </section>
+        <section>
+            <h2>Time Complexity Graph</h2>
+            <canvas id="timeComplexityChart" width="300" height="150"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>Project by Harsh Gupta, Rishav Kumar, Subhranil Swar, Vrushabh Brahmbhatt</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

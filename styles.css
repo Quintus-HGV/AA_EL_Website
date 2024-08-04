@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+label, input, button {
+    margin-right: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: center;
+}
+
+td.yellow {
+    background-color: yellow;
+}
+
+td.lightgreen {
+    background-color: lightgreen;
+}
+
+td.lightblue {
+    background-color: lightblue;
+}
